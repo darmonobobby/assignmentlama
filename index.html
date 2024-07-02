@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Belajar DOM + Function</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+    <h1>Belajar DOM dan Function Javascript</h1>
+
+    <!-- penjumlahan -->
+    <hr>
+    <h2>Operasi Penjumlahan</h2>
+
+    <div class="row">
+      <div class="col-2">
+        <input type="text" name="angka1" id="angka1" class="form-control" placeholder="Angka 1">
+      </div>
+
+      <div class="col-2 text-center">+</div>
+
+      <div class="col-2">
+        <input type="text" name="angka2" id="angka2" class="form-control" placeholder="Angka 1">
+      </div>
+
+      <div class="col-2 text-center">
+        <button class="btn btn-danger" onclick="tambah(angka1, angka2)">=</button>
+      </div>
+
+      <div class="col-2" id="hasil"></div>
+    
+    </div>
+
+    <!-- pengurangan -->
+    <hr>
+    <h2>Operasi Pengurangan</h2>
+
+    <div class="row">
+      <div class="col-2">
+        <input type="text" name="angka3" id="angka3" class="form-control" placeholder="Angka 3">
+      </div>
+
+      <div class="col-2 text-center">-</div>
+
+      <div class="col-2">
+        <input type="text" name="angka4" id="angka4" class="form-control" placeholder="Angka 4">
+      </div>
+
+      <div class="col-2 text-center">
+        <button class="btn btn-danger" onclick="kurang(angka3, angka4)">=</button>
+      </div>
+
+      <div class="col-2" id="hasil_pengurangan"></div>
+    
+
+  </div>
+
+  <script src="./js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
